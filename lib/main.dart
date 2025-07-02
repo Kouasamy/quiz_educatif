@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:quiz_educatif/pages/connexion.dart';
 import 'package:quiz_educatif/pages/inscription.dart';
 import 'package:quiz_educatif/pages/accueil.dart';
-import 'package:quiz_educatif/pages/quiz.dart';
 
 void main() {
   runApp(const MonQuizApp());
@@ -23,7 +22,6 @@ class MonQuizApp extends StatelessWidget {
         '/connexion': (context) => const PageConnexion(),
         '/inscription': (context) => const PageInscription(),
         '/accueil': (context) => PageAccueil(email: ''),
-        '/quiz': (context) => PageQuiz(email: ''),
       },
     );
   }
